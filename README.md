@@ -60,8 +60,8 @@ for [EasyMeter Q3D](https://www.easymeter.com/downloads/products/zaehler/Q3D/Eas
 
 - You can visit the web interface of your ESP and view current values of your energy managment which look like this:<br>![image](https://user-images.githubusercontent.com/4789510/200142553-29145934-3bb9-4bb8-98b2-c3feb0ca1b87.png)
 - When you hook up your ESP to a chain of MQTT -> InfluxDB -> Grafana, e.g. within a Home Assistant installation, you can log your data continuously and have beautiful charts created from it:<br/>![UseChain](https://user-images.githubusercontent.com/4789510/200144045-679a4232-486d-4360-bcee-2748aed97940.png)
-- How is your heating system doing?<br/>![Grafana](https://user-images.githubusercontent.com/4789510/200147187-14af93a1-e023-4d7c-85a3-4f595d15112a.png)
-- When does your power consumption happen?<br/>
+- How is your heating system doing?<br/>![EnergyMgmt](https://user-images.githubusercontent.com/4789510/200677474-1015a7d3-830e-489f-b932-5bb2f054bcc9.png)
+- When does your power consumption happen?<br/>![EnergyConsumption](https://user-images.githubusercontent.com/4789510/200677522-25c25dea-f846-4807-a3f0-2907f722eb1e.png)
 - Configure your heating regulator via Wifi.
   - Configure GPIO2/4 as `ModBr TX/RX`
   - Execute `ModbusTCPStart	5021`
