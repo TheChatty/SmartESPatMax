@@ -39,12 +39,12 @@ for [EasyMeter Q3D](https://www.easymeter.com/downloads/products/zaehler/Q3D/Eas
 1,1-0:1.8.0*255(@1,E_in,kWh,E_in,3
 1,1-0:2.8.0*255(@1,E_out,kWh,E_out,3
 1,=h<hr/>
-+2,4,m,0,19200,SekHK,2,5,rF7030009000E,rF703001C0004,F703006A
++2,4,m,0,19200,SekHK,2,5,rF7030009000E,F703001D,F703006A
 2,F7031CSSss@i0:10,Außentemp.,°C,Temp_Outside,1
 2,F7031Cx06SSss@i0:10,Vorlauftemp.,°C,Temp_Flow,1
 2,F7031Cx14SSss@i0:10,Rücklauftemp.,°C,Temp_Return,1
 2,F7031Cx26SSss@i0:10,Speichertemp.,°C,Temp_Vessel,1
-2,F70308xxxxUUuu@i1:0.1,Messwertm3-h,l/h,Metric_M3H,0
+2,F70304UUuu@i1:0.1,Messwertm3-h,l/h,Metric_M3H,0
 2,F70304UUuu@i2:1,StellsignalRk1,%,CtrlSig_RK1,0
 2,=h<hr/>
 +3,14,kN2,0,1200,PriHK,13,10,3F1005003C00560057004A0044
